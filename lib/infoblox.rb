@@ -16,7 +16,7 @@ module Infoblox
   DEBUG        = ENV['DEBUG']
   
   def wapi_version
-    @wapi_version ||= (ENV['WAPI_VERSION'] || '1.0')
+    @wapi_version ||= (ENV['WAPI_VERSION'] || '2.0')
   end
   module_function :wapi_version
 
